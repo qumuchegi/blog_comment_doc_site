@@ -45,15 +45,7 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <div id='blog-comment-parent-container'/>
-      {/* <BlogCommentFrame
-        commentDeployHost={'https://blog-comment-mocha.vercel.app'}
-        pageId={'1234567890'}
-        auth={['github', 'anonymous']}
-      /> */}
-      {/* <main>
-        <HomepageFeatures />
-      </main> */}
+      <div id='blog-comment-parent-container' style={{width: '50%', margin: 'auto'}}/>
     </Layout>
   );
 }
