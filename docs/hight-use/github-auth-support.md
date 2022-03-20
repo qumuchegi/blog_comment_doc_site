@@ -18,7 +18,7 @@ Blog Comment 默认匿名评论，可以通过 [Blog Comment Frame](../blog_comm
 
 然后重新 deploy Blog Comment。
  ### 二、打开 GitHub 授权功能
- 在 Blog Comment Frame 的 props `auth`，加入值 'github'
+ 在 [Blog Comment Frame](../blog_comment_frame) 的 props `auth`，加入值 'github'
 
  ```jsx title='React'
   <BlogCommentFrame

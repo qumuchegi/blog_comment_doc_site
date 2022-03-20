@@ -28,9 +28,16 @@ function HomepageHeader() {
   );
 }
 
+const CommentDemo = () => <BlogCommentFrame
+  commentDeployHost='https://blog-comment-mocha.vercel.app'
+  pageId='1234567890'
+  auth={['github']}
+/>
+
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   useEffect(() => {
+    console.log('挂载 BlogCommentShell');
     BlogCommentShell({
       containerId: 'blog-comment-parent-container',
       commentDeployHost: 'https://blog-comment-mocha.vercel.app',
@@ -45,6 +52,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <div id='blog-comment-parent-container' className={styles['comment-demo']}/>
+      {/* <CommentDemo/> */}
     </Layout>
   );
 }

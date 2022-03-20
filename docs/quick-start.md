@@ -54,7 +54,7 @@ mongodb+srv://[user name]:[password]@cluster0.2spu1.mongodb.net/myFirstDatabase?
 
 我们复制这个线上页面的 URL 以备用，比如上面这个页面 `https://my-blog-comment-phi.vercel.app/`。
 
->如果我们的评论组件需要 github 登录，还需要添加两个环境变量, GitHub OAuth application 的 **Client ID** 和 **Client Secret**，[怎么设置 GitHub OAuth application](./FAQ/how-apply-github-OAuth)
+>如果我们的评论组件需要 github 登录，还需要添加两个环境变量, GitHub OAuth application 的 **Client ID** 和 **Client Secret**，[支持评论者登录 Github 账号](./hight-use/github-auth-support)
 
 
 ### ⚙️ 引入 Blog Comment
