@@ -17,6 +17,8 @@ authors: [曲木车格]
  - 微信登录
 
  - 富文本输入
+
+ - 评论服务提速
 #### 2. [Blog Comment Frame](https://www.npmjs.com/package/blog_comment_frame) 版本为 1.2.5
 <a href='https://www.npmjs.com/package/blog_comment_frame'> 
 <img src='https://img.shields.io/badge/blog__comment__frame-1.2.5-yellowgreen'/>
