@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import BlogCommentFrame, { BlogCommentShell } from 'blog_comment_frame'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,11 +31,26 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  useEffect(() => {
+    BlogCommentShell({
+      containerId: 'blog-comment-parent-container',
+      commentDeployHost: 'https://blog-comment-mocha.vercel.app',
+      pageId: '1234567890',
+      auth: ['github', 'anonymous']
+    })
+  }, [])
+
   return (
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
+      <div id='blog-comment-parent-container'/>
+      {/* <BlogCommentFrame
+        commentDeployHost={'https://blog-comment-mocha.vercel.app'}
+        pageId={'1234567890'}
+        auth={['github', 'anonymous']}
+      /> */}
       {/* <main>
         <HomepageFeatures />
       </main> */}
