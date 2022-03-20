@@ -99,6 +99,29 @@ mongodb+srv://[user name]:[password]@cluster0.2spu1.mongodb.net/myFirstDatabase?
 
 <details>
   <summary>前端框架无关的引入方式</summary>
+  <h4>一、安装 <a href='https://www.npmjs.com/package/blog_comment_frame' target='_blank'>blog_comment_frame </a></h4>
+  在你的个人网站项目根目录下，执行命令：
+
+  ```bash
+  npm i blog_comment_frame
+
+  // or
+  yarn add blog_comment_frame
+  ```
+
+  #### 二、在需要引入评论组件的页面添加以下代码：
+
+  ```js
+  import { BlogCommentShell } from 'blog_comment_frame'
+
+  BlogCommentShell({
+    containerId: 'blog-comment-parent-container',
+    commentDeployHost: 'http://xxxx.vercel.app',
+    pageId: params.articleId,
+    auth: ['github', 'anonymous']
+  })
+
+  ```
 </details>
 
 最后看看我们的评论组件的效果：
