@@ -84,7 +84,7 @@ mongodb+srv://[user name]:[password]@cluster0.2spu1.mongodb.net/myFirstDatabase?
       <div>
         <h2>评论</h2>
         <BlogCommentFrame
-          commentDeployUrlHost={'http://xxxx.vercel.app'}
+          commentDeployHost={'http://xxxx.vercel.app'}
           pageId={'xxxxx'}
         />
       </div>
@@ -117,7 +117,7 @@ mongodb+srv://[user name]:[password]@cluster0.2spu1.mongodb.net/myFirstDatabase?
   BlogCommentShell({
     containerId: 'blog-comment-parent-container',
     commentDeployHost: 'http://xxxx.vercel.app',
-    pageId: params.articleId,
+    pageId: 'xxxx',
     auth: ['github', 'anonymous']
   })
 
