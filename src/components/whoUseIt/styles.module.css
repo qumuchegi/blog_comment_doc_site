@@ -1,0 +1,19 @@
+.list {
+  padding-left: 10px;
+  width: 100vw;
+  overflow-y: scroll;
+}
+.item {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(185, 241, 211);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.item:hover {
+  /* transform: translateY(-100px); */
+}

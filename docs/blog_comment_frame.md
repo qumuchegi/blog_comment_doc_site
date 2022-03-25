@@ -6,7 +6,7 @@ title: Blog Comment Frame
 
 ## blog comment frame
 <a href='https://www.npmjs.com/package/blog_comment_frame'> 
-<img src='https://img.shields.io/badge/blog__comment__frame-1.2.5-yellowgreen'/>
+<img src='https://img.shields.io/badge/blog__comment__frame-1.2.9-yellowgreen'/>
 </a>
 
 blog comment frame 这个包用于在网页中引入 Blog Comment

@@ -2475,10 +2475,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-blog_comment_frame@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/blog_comment_frame/-/blog_comment_frame-1.2.5.tgz#26cafb77eb87b7a043cdd4cd6b679fdc6f807f3f"
-  integrity sha512-opGnHDBDRLX/AXvvRV3kYcUvHSCNuE8brDw6d/Wor/M2PIbj/Cd6CyV72R1tyVHAHL3mkeo9jnJsHfa8O9N9iQ==
+blog_comment_frame@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/blog_comment_frame/-/blog_comment_frame-1.2.9.tgz#4921a2148635074b4abc7774b420000850aff221"
+  integrity sha512-we7lRyVXzgVqzW2blHOtgU6T9m6+hFm08IfbWhNtb5dZwyYCocwhuTT90v5/kkpNBnZ8uGEQ5jigZxlZdf+EsQ==
   dependencies:
     react "^16.8.6"
     react-dom "^16.8.6"
